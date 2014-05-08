@@ -95,9 +95,13 @@ img{
 	max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
  }
+
+img:last-of-type{
+    margin-bottom: 0px;
+}
 
  .post{
 
