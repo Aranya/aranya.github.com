@@ -230,11 +230,11 @@ p a{
 
 /*new add*/
 .text ul{
-    margin: 0; padding: 0; 
+    margin: 0; padding: 0; list-style: none;
 }
 
 .text li{ 
-    list-style: none;
+   
     height: 22px;
     line-height:22px;
     float:left; 
