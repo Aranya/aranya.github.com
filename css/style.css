@@ -228,35 +228,7 @@ p a{
     
 }
 
-/*new add*/
-.text ul{
-    margin: 0; padding: 0; list-style: none;
-}
 
-.text li{ 
-   
-    height: 22px;
-    line-height:22px;
-    float:left; 
-    overflow:hidden; 
-    text-align:center; 
-} 
-
-.text a{
-    color: #C3C3C3;
-    float:left; overflow:hidden; 
-    transition: all 0.3s ease 0;
-}
-
-.text span{
-    
-    display:block; 
-    margin-top:-22px;
-}
-
-.text a:hover{
-    padding-top: 22px;
-}
 
 
 
