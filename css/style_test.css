@@ -57,6 +57,18 @@ code{
 
 }
 
+/*
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}  * for IE/Mac  *
+.clearfix {zoom:1;} 
+*/
 /*-------------sidebar---------------*/
 
 #sidebar{
@@ -107,7 +119,8 @@ img:last-of-type{
 
 	width:720px;
 	float: left;
-
+	/*margin-bottom: 50px;*/
+	
 }
 
 .title h1{
@@ -161,8 +174,44 @@ p a{
 
     float:right;
 
+/*.image {
+
+    margin: 0 0 40px;
 }
 
+.image .image-wrap {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.image .image-wrap .details {
+    background: none repeat scroll 0 0 #808080;
+    color: #FFFFFF;
+    display: block;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    text-decoration: none;
+    transition: opacity 0.3s ease 0s;
+    width: 100%;
+    z-index: 99999999;
+
+}
+
+.image .image-wrap .details:hover {
+    opacity: 1;
+}
+.image img {
+    display: block;
+    width: 100%;
+}
+
+.image p{
+
+	padding: 20px;
+}
+*/
 
 /*-------------footer---------------*/
 
@@ -197,6 +246,7 @@ p a{
 
 }
 
+/*new add*/
 .text ul{
     margin: 0; 
     padding: 0; 
@@ -240,7 +290,7 @@ p a{
 /*--------------nav-------------*/
 #nav{
 
-	width: 700px;
+	width: 700px;  /*由于img的属性，使content的padding向内缩进了20px，所以这里也减去20（720-20）*/
 	height: 50px;
 	border-style: solid;
 	border-color: #E6E6E6;
@@ -444,7 +494,7 @@ p a{
     #container {
 
         width: 80%;
-
+        /*margin-left: 60px;*/
     }
 
     #header {
