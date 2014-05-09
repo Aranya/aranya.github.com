@@ -230,7 +230,11 @@ p a{
 
 /*new add*/
 .text ul{
-    margin: 0; padding: 0; 
+
+    list-style: none;
+    margin: 0; 
+    padding: 0; 
+
 }
 
 .text li{ 
@@ -244,7 +248,8 @@ p a{
 
 .text a{
     color: #C3C3C3;
-    float:left; overflow:hidden; 
+    float:left; 
+    overflow:hidden; 
     transition: all 0.3s ease 0;
 }
 
